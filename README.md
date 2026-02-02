@@ -20,8 +20,8 @@ Flutter-based multi-platform mobile application for controlling the smartscope s
    - Click "Get dependencies" to download required Flutter packages
    - Run [main.dart](software/lib/main.dart)
    
-        > 💡 **Note:** While a pre-built APK is available for download, we recommend building from source to ensure optimal compatibility with your specific device.
-   
+        > 💡 **Note:** You can [download a pre-built APK](https://github.com/HIT-COI/smartscope/releases/download/v0.1.0/app-release.apk) directly, though we recommend building from source to ensure optimal compatibility with your specific device.
+
    - In [main.dart](software/lib/main.dart), modify the physical PPI value according to your device specifications:
 
         ```dart
