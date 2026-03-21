@@ -84,9 +84,8 @@ journal = {Laser \& Photonics Reviews},
 volume = {n/a},
 number = {n/a},
 pages = {e71115},
-doi = {https://doi.org/10.1002/lpor.71115},
+doi = {10.1002/lpor.71115},
 url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/lpor.71115},
-eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/lpor.71115},
 }
 
 
