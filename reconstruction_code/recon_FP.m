@@ -1,6 +1,7 @@
 %% Function body
 % objectRecoverFT is the initial value
 figure;
+I_pow = abs(I) .^ 0.7;
 for iteration = 1:loop
 
     for t = images_to_use
@@ -27,7 +28,7 @@ for iteration = 1:loop
         % phase = phase_unwrapCG(angle(lowres));
             % Unified stray light removal logic
             threshold = [0.055, 0.055, 0.045] * (2^14);
-            temp = abs( I(:, :, t) );
+            % temp = abs( I(:, :, t) );
             % temp = (2^14)*(temp/max(temp(:)));
             % Apply stray light correction only to specific image indices
             % if t > 25
@@ -38,9 +39,9 @@ for iteration = 1:loop
             % end
         
         if iteration < 15
-            lowres =(upsample_ratio^2)* ((temp).^0.7).*exp(1j*phase);
+            lowres =(upsample_ratio^2)* (I_pow(:,:,t)).*exp(1j*phase);
         else
-            lowres =(upsample_ratio^2)* ((temp).^0.7).*exp(1j*phase);
+            lowres =(upsample_ratio^2)* (I_pow(:,:,t)).*exp(1j*phase);
         end
 
         lowresft_2 = F(lowres);
