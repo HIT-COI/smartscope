@@ -78,15 +78,16 @@ This framework is licensed under the MIT License. Please see `LICENSE` for detai
 
 If you find this work helpful to your research, we would greatly appreciate a citation via
 ```bibtex
-@article{https://doi.org/10.1002/lpor.71115,
+@article{huang2026handheld,
 author = {Huang, Kun and Ma, Shuo and Huang, Guancheng and Li, Ziyang and Fu, Longhui and Sun, Ming and Shuai, Yong and Liu, Shutian and Liu, Zhengjun and Li, Yutong},
 title = {Handheld Smartscope for High-Throughput Quantitative Phase Imaging via Sparse Multi-Annular Illumination and Kramers-Kronig Relations},
 journal = {Laser \& Photonics Reviews},
-volume = {n/a},
-number = {n/a},
+volume = {20},
+number = {15},
 pages = {e71115},
 doi = {10.1002/lpor.71115},
 url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/lpor.71115},
+year = {2026}
 }
 ```
 
